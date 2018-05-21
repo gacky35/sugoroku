@@ -16,7 +16,7 @@ def disp(list):
                     print(list[i * 11 + j][2], end='')
 
 def reset(list, i, t, k):
-    if "ii" not in list[i-t][2]:
+    if "12" not in list[i-t][2]:
         list[i-t][2] = "□ "
     elif k % 2 == 0:
         list[i-t][2] = " 2"
